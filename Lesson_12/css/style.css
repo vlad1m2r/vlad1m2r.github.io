@@ -1,0 +1,33 @@
+ body{
+		background-color: #100;
+ }
+ .header{
+ 	text-transform: uppercase;
+ 	color: white;
+ }
+ 
+ .block{
+ 	color: rgb(255,0,255);
+ 	color: rgba(255,0,255,0.4);
+ }
+ .text1{
+ 	 	text-transform: uppercase;
+ 	  color: blue;
+ }
+ h3{
+ 	text-transform: lowercase;
+ 	color: green;
+ 	text-decoration: line-through;
+ }
+ h1 {
+ 	border: 2px dashed #060
+ }
+ .AVK{
+ 	color: blue;
+ 	background-color: red;
+ 	display: inline-block;
+ 	width: 100px;
+ }
+ .box{
+ 	background-color: red;
+ }

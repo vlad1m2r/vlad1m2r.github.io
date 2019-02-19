@@ -1,0 +1,80 @@
+*{
+	box-sizing: border-box;
+}
+.box{
+	background-color: red;
+	height: 100px;
+	width: 50%;
+	overflow: auto;
+	display: inline-block;
+	/*padding-left: 20px; отстает от бокса 20 пикселей
+	padding-top: 5px;
+	padding-right: 10px;*/
+	/*padding: 10px 5px 20px 10px; /*верх, право, лево, низ*/
+	padding: 15px 15px; /*сверху, снизу -10, слева справа 20*/
+	/*margin-left: 50px; отступ слева от блока*/
+	margin-top: 100px;
+}
+.minibox{
+	background-color: green;
+	height: 50%;
+	width: 30%;
+	border: 5px solid #000;
+	border-top: 10px solid #111; 
+}
+.boxabsolute1{
+	top: 0;
+	left: 0;
+	background-color: green;
+	height: 100px;
+	width: 100%;
+	position: fixed;
+	opacity: .8;
+	/*left: 50%;*/
+	/*margin-left: -150px; */
+}
+.boxabsolute2{
+	left: 0px;
+	background-color: green;
+	height: 100px;
+	width: 50%;
+	position: relative;
+	opacity: .9;
+	/*left: 50%;*/
+	/*margin-left: -150px; */
+	margin-top: 110px;
+	float: left; /*Обтекание*/
+}
+.boxabsolute3{
+	background-color: red;
+	height: 50px;
+	width: 100px;
+	position: absolute;
+	opacity: .9;
+	left: 50%;
+	/*margin-left: -150px; */
+}
+
+.box1{
+	background-color: red;
+	height: 50px;
+	width: 100px;
+	position: absolute;
+	opacity: .9;
+	margin-left: 5px;
+	margin-top: 10px;
+	z-index: 3; /*Принцип карточной колоды*/
+	/*margin-left: -150px; */
+	float: left;
+}
+.box2{
+	background-color: blue;
+	height: 50px;
+	width: 100px;
+	position: absolute;
+	opacity: .9;
+	margin-left: 20px;
+	margin-top: 20px;
+	z-index: 2;
+	/*margin-left: -150px; */
+}

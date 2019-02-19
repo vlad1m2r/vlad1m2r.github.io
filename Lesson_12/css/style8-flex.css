@@ -1,0 +1,31 @@
+.flex-container{
+	display: flex;
+ background-color: rgba(0,0,0,.1);
+ justify-content: space-around;
+ /*height: 500px;*/
+ /*align-items: center;
+ flex-direction: column-reverse;*/
+ flex-wrap: wrap;
+ align-items: center;
+}
+
+.flex-item{
+	height: 150px;
+	width: 130px;
+	text-align: center;
+
+	background-color: grey;
+}
+.item-1{
+	height: 30px;
+}
+.item-2{
+	height: 50px;
+}
+.item-3{
+	align-self: flex-start;
+	order: -1;
+	height: 60px;
+	flex-basis: 50%;
+}
+
